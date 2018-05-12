@@ -1,0 +1,22 @@
+{
+  "name": "urltopdf",
+  "version": "1.0.0",
+  "description": "tiny url to pdf with headless chrome",
+  "main": "UrlToPdf.js",
+  "scripts": {
+    "test": "urltopdf -u https://github.com/ -o github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zopitirik/pdfCreator.git"
+  },
+  "keywords": [
+    "pdf-generation"
+  ],
+  "author": "Hikmet Ergün",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zopitirik/pdfCreator/issues"
+  },
+  "homepage": "https://github.com/Zopitirik/pdfCreator#readme"
+}
