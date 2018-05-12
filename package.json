@@ -1,10 +1,10 @@
 {
-  "name": "urltopdf",
+  "name": "pdfcreator",
   "version": "1.0.0",
   "description": "tiny url to pdf with headless chrome",
-  "main": "UrlToPdf.js",
+  "main": "pdfCreator.js",
   "scripts": {
-    "test": "urltopdf -u https://github.com/ -o github"
+    "test": "pdfcreator -u https://github.com/ -o github"
   },
   "repository": {
     "type": "git",
