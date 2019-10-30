@@ -1,6 +1,6 @@
 {
   "name": "pdfcreator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tiny url to pdf with headless chrome",
   "main": "pdfCreator.js",
   "scripts": {
@@ -22,7 +22,8 @@
   "dependencies": {
     "colors": "1.4.0",
     "commander": "3.0.2",
-    "puppeteer": "2.0.0",
-    "path": "0.12.7"
+    "fs": "0.0.1-security",
+    "path": "0.12.7",
+    "puppeteer": "2.0.0"
   }
 }
