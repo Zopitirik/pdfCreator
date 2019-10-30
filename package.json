@@ -22,6 +22,7 @@
   "dependencies": {
     "colors": "1.4.0",
     "commander": "3.0.2",
-    "puppeteer": "2.0.0"
+    "puppeteer": "2.0.0",
+    "path": "0.12.7"
   }
 }
