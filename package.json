@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Zopitirik/pdfCreator/issues"
   },
-  "homepage": "https://github.com/Zopitirik/pdfCreator#readme"
+  "homepage": "https://github.com/Zopitirik/pdfCreator#readme",
+  "dependencies": {
+    "colors": "1.4.0",
+    "commander": "3.0.2",
+    "puppeteer": "2.0.0"
+  }
 }
