@@ -15,9 +15,16 @@ pdfcreator -u [url] -o [fileName] -d [directoryName]
 
 ```fileName``` should be just a name without extension
 
-```directory``` directory Ex: C:\Pdf.  If directory does not exist, it will be created. (Optional)
+```directoryName``` directory Ex: C:\Pdf.  If directory does not exist, it will be created. (Optional)
+
+## Output
+Output is complete [directoryName]\\[fileName]
 
 ## Test
 ```
-pdfcreator -u https://github.com/ -o github
+C:\Docs>pdfcreator -u https://github.com/ -o github -d C:\Log
+C:\Log\github.pdf
+
+C:\Docs>pdfcreator -u https://github.com/ -o github
+C:\Docs\github.pdf
 ```
